@@ -1,0 +1,47 @@
+BODY {
+    background: honeydew;
+    }
+  DIV {
+    position: relative;
+    height: 2.4em;
+    margin: 1em 1em;
+    padding: .2em;
+    border: 1px solid #F23E2E;
+    border-radius: 100px;
+    font-size: 1.2em;
+    }
+  
+  DIV:before {
+    content: attr(class);
+    display: inline-block;
+    position: absolute;
+    left: .2em;
+    height: 2em;
+    width: 15em;
+    padding: .2em;
+    background:  linear-gradient(225deg,
+    #1BF2DD 20%,
+    #F2EA7E 20%, #F2EA7E 40%,
+    #F2BA52 40%, #F2BA52 60%,
+    #F2994B 60%,  #F2994B 80%,
+    #F23E2E 80%, #F23E2E 100%
+    );
+    border-radius: 100px;
+    animation: timing 3.5s infinite;
+    line-height: 2em;
+    text-shadow: .03em .03em teal;
+    text-align: center;
+    text-transform: capitalize;
+    color:black;
+    }
+  
+  @keyframes timing {
+    50%{
+      left: 100%;
+      margin-left: -15.6em;
+    }
+  }
+  
+  .linear:before {
+    animation-timing-function: linear;
+    }

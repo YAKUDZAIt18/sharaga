@@ -1,0 +1,59 @@
+p {
+    color:red;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.myclass {
+    text-align: center;
+    border: 2px dashed blue;
+    background-color: aqua;
+    color: blueviolet;
+    font-family: fantasy;
+    font-size: 90px;
+}
+
+h1 {
+    margin-bottom: -3%;
+}
+
+h3 {
+    opacity: 0.5;
+}
+
+ul {
+    padding: 0;
+    width: 100%;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  a {
+    outline: none;
+    text-decoration: none;
+    display: inline-block;
+    width: 19.5%;
+    margin-right: 0.625%;
+    text-align: center;
+    line-height: 3;
+    color: black;
+  }
+  
+  li:last-child a {
+    margin-right: 0;
+  }
+  
+  a:link, a:visited, a:focus {
+    background: yellow;
+  }
+  
+  a:hover {
+    background: orange;
+  }
+  
+  a:active {
+    background: red;
+    color: white;
+  }
